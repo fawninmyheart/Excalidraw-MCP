@@ -1,0 +1,16 @@
+node_modules/
+.cache/
+.test-install*/
+test-results/
+installation.json
+mcp-config.json
+/data/
+/logs/
+/runtime/
+/upstream/
+*.log
+*.excalidraw
+*.zip
+*.tgz
+.env.local
+.env.*.local
