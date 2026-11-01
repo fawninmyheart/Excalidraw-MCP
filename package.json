@@ -1,0 +1,22 @@
+{
+  "name": "excalidraw-mcp-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Install and co-edit local Excalidraw through MCP on Windows",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/mcp-server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "doctor": "node scripts/doctor.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "@modelcontextprotocol/client": "2.4.0",
+    "smol-toml": "1.9.1",
+    "zod": "4.6.7"
+  }
+}
